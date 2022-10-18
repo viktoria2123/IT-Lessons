@@ -1,0 +1,23 @@
+.container {
+    padding: 32px; 
+    background-color: #D9D9D9;
+    width: 1082px;
+}
+.box {
+    width: 1082px;
+    height: 333px;
+    margin-bottom: 52px;
+}
+
+.box--red {
+    background: #FC0F0F;
+}
+
+.box--blue {
+
+    background: #0F18FC;
+}
+
+.box--green {
+    background: #0FFC43
+}

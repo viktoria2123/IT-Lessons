@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+h1,
+h4 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/2146.png_300.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.site-name {
+    font-family: 'KyivType Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    color:floralwhite;
+    line-height: 0.9;
+    max-width: 412px;
+}
