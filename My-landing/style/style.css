@@ -5,7 +5,40 @@
 }
 
 img {
+    display: block;
     width: 100%;
+}
+
+button {
+    background: transparent;
+    border: 0;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 43px 0px 90px 0px;
+}
+
+a {
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #828282;
+}
+
+.header-content-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 10;
+    max-width: 936px;
+
+
 }
 
 .portfolio {
