@@ -24,6 +24,7 @@ button {
     align-items: center;
     text-align: center;
     margin: 0 auto;
+    padding-bottom: 32px;
 }
 
 a {
@@ -33,6 +34,14 @@ a {
     font-size: 18px;
     line-height: 21px;
     color: #828282;
+}
+
+.container__header-vector {
+    background: transparent;
+    border: 0;
+    margin: 0 auto;
+    max-width: 936px;
+    padding-bottom: 95px;
 }
 
 .header-content__text {
@@ -49,6 +58,7 @@ a {
     align-items: center;
     text-align: center;
     margin: 0 auto;
+    padding-bottom: 49px;
 
 }
 
