@@ -74,6 +74,38 @@ a {
 
 }
 
+.about-me {
+    background: #F6F6F6;
+    padding-bottom: 107px;
+}
+
+.about-me__title {
+    padding: 120px 0px 18px 0px;
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 39px;
+    text-align: center;
+    color: #070707;
+}
+
+.about-me__text {
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #070707;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    width: 485.34px;
+    height: 218px;
+    margin: 0 auto;
+}
+
 .portfolio {
     margin: 0 auto;
     padding: 0 10;
