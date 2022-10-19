@@ -19,6 +19,11 @@ button {
     justify-content: space-between;
     align-items: center;
     padding: 43px 0px 90px 0px;
+    width: 100%;
+    max-width: 936px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
 }
 
 a {
@@ -28,6 +33,23 @@ a {
     font-size: 18px;
     line-height: 21px;
     color: #828282;
+}
+
+.header-content__text {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #070707;
+    width: 100%;
+    max-width: 936px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+
 }
 
 .header-content-photo {
