@@ -25,6 +25,7 @@ button {
     text-align: center;
     margin: 0 auto;
     padding-bottom: 32px;
+    list-style-type: none;
 }
 
 a {
