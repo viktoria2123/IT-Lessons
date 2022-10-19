@@ -14,6 +14,10 @@ button {
     border: 0;
 }
 
+p {
+    text-align: center; 
+}
+
 .header__menu {
     display: flex;
     justify-content: space-between;
@@ -70,8 +74,6 @@ a {
     margin: 0 auto;
     padding: 0 10;
     max-width: 936px;
-
-
 }
 
 .about-me {
@@ -104,6 +106,48 @@ a {
     width: 485.34px;
     height: 218px;
     margin: 0 auto;
+}
+
+.skills__cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 84px 0px 110px 0px;
+    max-width: 936px;
+}
+
+.skills__title {
+    padding: 91px 0px 69px 0px;
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 39px;
+    text-align: center;
+    color: #070707;
+}
+
+.skills__img {
+    width: 89.07px;
+    height: 88.41px;
+    margin: auto;
+}
+
+.skills__img-figma {
+    width: 58.25px;
+    height: 88.99px;
+    margin: auto
+}
+
+.skills__text {
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #070707;
+
 }
 
 .portfolio {
