@@ -244,6 +244,8 @@ h1 {
     line-height: 21px;
     text-align: center;
     color: #070707;
+    max-width: 272px;
+    margin: 0 auto;
 }
 
 .contacts__title {
@@ -270,6 +272,7 @@ h1 {
     color: #FFFFFF;
     margin: 0 auto;
     margin-top: 60px;
+    cursor: pointer;
 }
 
 .contacts__img {
