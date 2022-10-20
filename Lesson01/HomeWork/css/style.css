@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: pink;
+}
+
+img {
+    display: block;
+    width: 100%;
+    max-width: 248px;
+    margin: 25px;
+}
+
+button {
+    background: transparent;
+    border: 0;
+}
+
+.container__general {
+    padding: 38px 54px 37px 301px;
+}
+
+h2 {
+    padding: 51px 28px 51px 114px;
+    
+}
+
+.title {
+    font-family: 'KyivType Sans';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.personal {
+    display: flex;
+    flex-direction: row;
+}
+
+.personal__info {
+    padding: 161px;
+
+}
