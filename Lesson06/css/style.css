@@ -1,3 +1,46 @@
-.hero .title {
-    color:red
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+}
+
+p, h1 {
+    color: #FF8984;
+    align-items: center;
+}
+
+h1 {}
+
+.general {
+    background-color: #3B3F45;
+    width: 793px;
+    height: 507px;
+}
+
+.tab__item {
+    background-color: #88839E;
+    
+}
+
+.tab__item:nth-child(2n) {
+    background-color: #7A7593;
+}
+
+.tab__item:hover {
+    background-color: #625E77;
+    
+}
+
+.tab__item:active {
+    border-top: 3px;
+    border-bottom: 3px;
+    
+    
+}
+
+.tab__item-check:checked + span {
+    text-decoration: line-through;
+    color: #9B96AC;
+
 }
