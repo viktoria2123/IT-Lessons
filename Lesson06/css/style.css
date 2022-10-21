@@ -8,9 +8,11 @@
 p, h1 {
     color: #FF8984;
     align-items: center;
+    text-align: center;
 }
 
-h1 {}
+
+
 
 .general {
     background-color: #3B3F45;
