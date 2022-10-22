@@ -15,3 +15,91 @@ button {
     background: transparent;
     display: block;
 }
+
+body {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #2F281E;
+}
+
+.header {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.header__img {
+    display: flex;
+    padding-top: 24px;
+    padding-left: 120px;
+    padding-bottom: 24px;
+}
+
+.header_img-one {
+    max-width: 33px;
+    max-height: 30px;
+}
+
+.header_img-two {
+    max-width: 154.23px;
+    max-height: 29px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    padding-right: 20px;
+}
+
+.header__menu {
+    padding: 26px 14px;
+    padding-left: 198px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #2F281E;
+}
+
+li:first-child {
+    color: #FF9900;
+}
+
+.header__btn {
+    display: flex;
+    align-items: center;
+    padding: 13px 25px;
+    margin-left: 198px;
+    margin-right: 120px;
+}
+
+.header__btn-one {
+    align-items: center;
+    padding: 13px 25px;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    margin-right: 32px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2F281E;
+    cursor: pointer;
+}
+
+.header__btn-two {
+    align-items: center;
+    padding: 13px 25px;
+    background: #FF9900;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
