@@ -1,0 +1,46 @@
+
+body {
+    background-color:#C4C4C4;
+    padding: 10px;
+}
+
+.header__box {
+    background-color: #AA3939;
+    height: 43px;
+    margin-bottom: 14px;
+}
+
+.general {
+    background-color: #AA3939;
+    padding: 10px;
+}
+
+.general__box {
+    height: 43px;
+    margin-bottom: 14px;
+    background-color: #2C31B8;
+}
+
+.general__box:last-child {
+    margin: 0;
+}
+
+.text {
+    padding: 9px 11px 9px 13px;
+}
+
+.footer__box {
+    background-color: #AA3939;
+    padding: 13px;
+}
+
+.box-one {
+    background-color: #2C31B8;
+    height: 83px;
+    padding: 10px;
+}
+
+.box-two {
+    background-color: #3DDE44;
+    padding: 41px;
+}
