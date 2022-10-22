@@ -1,0 +1,17 @@
+/*  ==== Global Style ==== */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+button {
+    border: none;
+    background: transparent;
+    display: block;
+}
