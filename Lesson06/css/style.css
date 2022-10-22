@@ -29,6 +29,14 @@ h1 {
     margin: 12px;
 }
 
+.tab__item-check-span::before {
+    content: "(";
+}
+
+.tab__item-check-span::after {
+    content: ")";
+}
+
 .header, footer {
     background: #4A4F56;
 }
@@ -74,7 +82,11 @@ h1 {
 .tab__item-check:checked+span {
     text-decoration: line-through;
     color: #9B96AC;
+}
 
+.tab__item-check-span:checked+span {
+    text-decoration: line-through;
+    color: #9B96AC;
 }
 
 .text__bon-apetit {
