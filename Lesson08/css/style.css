@@ -28,7 +28,7 @@ body {
 .wraper {
     overflow: hidden;
 
-    
+
 }
 
 /*  ==== Global Style ==== */
@@ -127,5 +127,43 @@ li:first-child {
 /*  ==== header-content ==== */
 
 .header__content-text {
-    
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    padding-bottom: 30px;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    color: #2F281E;
+}
+
+.header__content-txt {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #544837;
+    padding-bottom: 20px;
+}
+
+.header__content-btn {
+    width: 180px;
+    height: 50px;
+    left: 0px;
+    top: 348px;
+    background: #FF9900;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.header__content-img {
+    margin-left: auto;
+    width: 644px;
+    margin-top: -381px;
 }
