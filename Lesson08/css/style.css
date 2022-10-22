@@ -25,6 +25,17 @@ body {
     color: #2F281E;
 }
 
+.wraper {
+    overflow: hidden;
+
+    
+}
+
+/*  ==== Global Style ==== */
+
+
+/*  ==== header ==== */
+
 .header {
     display: flex;
     margin-bottom: 70px;
@@ -102,4 +113,19 @@ li:first-child {
     line-height: 20px;
     color: #FFFFFF;
     cursor: pointer;
+}
+
+.header__content-text {
+    margin-top: 70px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 100px;
+}
+
+/*  ==== header end ==== */
+
+/*  ==== header-content ==== */
+
+.header__content-text {
+    
 }
