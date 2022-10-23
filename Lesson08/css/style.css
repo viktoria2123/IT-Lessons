@@ -27,35 +27,33 @@ body {
 
 .wraper {
     overflow: hidden;
-
-
 }
+
 
 /*  ==== Global Style ==== */
 
 
 /*  ==== header ==== */
 
-.header {
+.header__container {
     display: flex;
-    margin-bottom: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
 }
 
 .header__img {
     display: flex;
-    padding-top: 24px;
-    padding-left: 120px;
-    padding-bottom: 24px;
 }
 
 .header_img-one {
-    max-width: 33px;
-    max-height: 30px;
+    width: 33px;
+    height: 30px;
+    
 }
 
 .header_img-two {
-    max-width: 154.23px;
-    max-height: 29px;
+    padding-left: 13px;
 }
 
 ul {
@@ -189,6 +187,13 @@ h1 {
 /*  ==== header-content end ==== */
 
 /*  ==== product ==== */
+
+.product {
+    background: url(../img/bg.png) 50%/ cover no-repeat;
+    padding-bottom: 74px;
+}
+
+
 h2 {
     font-weight: 700;
     font-size: 36px;
