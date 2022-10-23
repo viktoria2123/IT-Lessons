@@ -67,6 +67,11 @@ li {
     padding-right: 20px;
 }
 
+li:hover {
+    color: #FF9900;
+    cursor: pointer;
+}
+
 .header__menu {
     padding: 26px 14px;
     padding-left: 198px;
@@ -78,9 +83,7 @@ li {
     color: #2F281E;
 }
 
-li:first-child {
-    color: #FF9900;
-}
+
 
 .header__btn {
     display: flex;
@@ -93,6 +96,7 @@ li:first-child {
 .header__btn-one {
     align-items: center;
     padding: 13px 25px;
+    background-color: #FFFFFF;
     border: 1px solid #BCD0E5;
     border-radius: 4px;
     margin-right: 32px;
@@ -103,15 +107,28 @@ li:first-child {
     cursor: pointer;
 }
 
+.header__btn-one:hover,.header__btn-two:hover {
+    background: #FF9900;
+    color: #FFFFFF;
+}
+
+.header__btn-one:active,.header__btn-two:active {
+    background: #FF9900;
+    color: #FFFFFF;
+}
+
+
 .header__btn-two {
     align-items: center;
     padding: 13px 25px;
-    background: #FF9900;
+    background-color: #FFFFFF;
+    border: 1px solid #BCD0E5;
     border-radius: 4px;
+    margin-right: 32px;
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
-    color: #FFFFFF;
+    color: #2F281E;
     cursor: pointer;
 }
 
