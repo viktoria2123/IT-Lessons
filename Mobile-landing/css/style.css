@@ -181,3 +181,11 @@ a {
     text-decoration-line: underline;
     color: #00BBCE;
 }
+
+.skills-two__cart-link {
+    padding-bottom: 30px;
+}
+
+.skills-two__cart {
+    border-bottom: 1px solid #FFFFFF;
+}
