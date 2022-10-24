@@ -148,6 +148,10 @@ h3 {
     border-bottom: none;
 }
 
+.skills__button {
+padding-top: 32px;
+}
+
 /*  ==== skills end ==== */
 
 /*  ==== skills-two ==== */
@@ -178,5 +182,7 @@ a {
 
 .skills-two__cart:last-of-type {
     border-bottom: none;
+}
+
 
 /*  ==== skills-two end ==== */
