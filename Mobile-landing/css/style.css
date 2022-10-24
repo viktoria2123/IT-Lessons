@@ -1,0 +1,155 @@
+/*  ==== Global Style ==== */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+button {
+    border: none;
+    background: transparent;
+    display: block;
+}
+
+body {
+    background: #001A35;
+    color: #FFFFFF;
+    font-family: 'Arial', sans-serif;
+}
+
+/* @media (min-width: 991px) {
+    body {
+        color: red;
+    }
+} */
+
+.wrapp {
+    overflow: hidden;
+}
+
+.container {
+    padding: 0 15px;
+    max-width: 490px;
+    margin: 0 auto;
+}
+
+.button {
+    background: #E4E541;
+    width: 100%;
+    padding: 23px 16px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #002E5D;
+}
+
+.button:hover {
+    background: #D4D447;
+}
+
+.text {}
+
+.title {}
+
+
+/*  ==== Global Style End ==== */
+
+/*  ==== header ==== */
+.header {
+    padding-top: 92px;
+    padding-bottom: 62px;
+}
+
+.header__title,
+.skills__title {
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 11px;
+}
+
+.header__img {
+    width: 110%;
+    width: 120%;
+    margin-left: -10%;
+    margin-top: -255px;
+    margin-bottom: -320px;
+}
+
+.header__row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.header__row-item {
+    background: rgba(73, 168, 213, 0.2);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    padding: 14px 12px;
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__text {
+    margin-bottom: 8px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.header__button {
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+/*  ==== header End ==== */
+
+
+/*  ==== skills ==== */
+
+.skills__title {
+    margin-top: 62px;
+    text-align: left;
+}
+
+h3 {
+    font-family: 'Graphik LC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    color: #A7C539;
+    padding-bottom: 8px;
+    padding-top: 24px;
+}
+
+.skills__cart-text {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 135%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    padding-bottom: 24px;
+    
+}
+
+.skills__cart {
+ border-bottom: 1px solid #FFFFFF;   
+}
+/*  ==== skills end ==== */
