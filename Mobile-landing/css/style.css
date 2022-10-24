@@ -22,12 +22,6 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
-/* @media (min-width: 991px) {
-    body {
-        color: red;
-    }
-} */
-
 .wrapp {
     overflow: hidden;
 }
@@ -52,11 +46,6 @@ body {
 .button:hover {
     background: #D4D447;
 }
-
-.text {}
-
-.title {}
-
 
 /*  ==== Global Style End ==== */
 
@@ -155,7 +144,7 @@ h3 {
     border-bottom: 1px solid #FFFFFF;
 }
 
-.skills__cart:last-child {
+.skills__cart:last-of-type {
     border-bottom: none;
 }
 
@@ -163,9 +152,6 @@ h3 {
 
 /*  ==== skills-two ==== */
 
-
-
-/*  ==== skills-two end ==== */
 
 .skills-two__title {
     text-align: left;
@@ -189,3 +175,8 @@ a {
 .skills-two__cart {
     border-bottom: 1px solid #FFFFFF;
 }
+
+.skills-two__cart:last-of-type {
+    border-bottom: none;
+
+/*  ==== skills-two end ==== */
