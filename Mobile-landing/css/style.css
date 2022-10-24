@@ -67,7 +67,8 @@ body {
 }
 
 .header__title,
-.skills__title {
+.skills__title,
+.skills-two__title {
     font-weight: 400;
     font-size: 42px;
     line-height: 48px;
@@ -137,7 +138,8 @@ h3 {
     padding-top: 24px;
 }
 
-.skills__cart-text {
+.skills__cart-text,
+.skills-two__cart-text {
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
@@ -146,10 +148,36 @@ h3 {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     padding-bottom: 24px;
-    
+
 }
 
 .skills__cart {
- border-bottom: 1px solid #FFFFFF;   
+    border-bottom: 1px solid #FFFFFF;
 }
+
+.skills__cart:last-child {
+    border-bottom: none;
+}
+
 /*  ==== skills end ==== */
+
+/*  ==== skills-two ==== */
+
+
+
+/*  ==== skills-two end ==== */
+
+.skills-two__title {
+    text-align: left;
+}
+
+a {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 135%;
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
+    color: #00BBCE;
+}
