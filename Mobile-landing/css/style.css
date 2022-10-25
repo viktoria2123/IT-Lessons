@@ -149,6 +149,7 @@ h3 {
 
 .skills__cart {
     border-bottom: 1px solid #FFFFFF;
+    border-color: #33485D;
 }
 
 .skills__cart:last-of-type {
@@ -185,6 +186,8 @@ a {
 
 .skills-two__cart {
     border-bottom: 1px solid #FFFFFF;
+    border-color: #33485D;
+
 }
 
 .skills-two__cart:last-of-type {
