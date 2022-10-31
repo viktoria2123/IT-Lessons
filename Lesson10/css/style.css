@@ -152,6 +152,6 @@ p {
 }
 
 .footer__container-icons-img {
-    flex-direction: row;
-    width: 50%;
+    width: 100%;
+    display: flex;
 }
