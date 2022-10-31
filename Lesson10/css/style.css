@@ -23,6 +23,11 @@ li {
     list-style-type: none;
 }
 
+.header__menu-img {
+    position: relative;
+    top: 5px;
+}
+
 a {
     color: #000000;
     text-decoration-color: #BDBDBD;
