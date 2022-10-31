@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+body {
+    padding: 26px 120px 90px;
+    background-image: url(../img/bg-picture.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 150px;
+    background-attachment: fixed;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: #000000;
+    text-decoration-color: #BDBDBD;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 16px;
+
+
+}
+
+.header__menu {
+    display: flex;
+    gap: 50px;
+    padding-top: 26px;
+}
+
+.header__img {
+    margin-top: 16px;
+}
+
+.documentation {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    mix-blend-mode: normal;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding-bottom: 106px;
+}
+
+.header__container {
+    display: flex;
+    gap: 601px;
+    height: 60px;
+    position: fixed;
+    background: #fff;
+    z-index: 1000;
+    top: 0;
+}
+
+.sidebar__container {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 96px;
+
+}
+
+.main__container {
+    margin-top: 96px;
+}
+
+.main__container-img {
+    width: 100px;
+    height: 8px;
+    margin-bottom: 20px;
+}
+
+.general {
+    display: flex;
+    gap: 38px;
+}
+
+h1 {
+
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-bottom: 40px;
+}
+
+p {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    color: #000000;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 70px;
+}
