@@ -33,8 +33,6 @@ a {
     text-decoration-color: #BDBDBD;
     text-decoration-thickness: 1px;
     text-underline-offset: 16px;
-
-
 }
 
 .header__menu {
@@ -92,6 +90,8 @@ a {
     order: 0;
     flex-grow: 0;
     margin-top: 96px;
+    position: sticky;
+    top: 70px;
 
 }
 
@@ -99,18 +99,14 @@ a {
     margin-top: 96px;
 }
 
-.main__container-img,.footer__container-head-img {
-    width: 100px;
-    height: 8px;
-    margin-bottom: 20px;
-}
+
 
 .general {
     display: flex;
     gap: 38px;
 }
 
-h1 {
+.title {
 
     font-family: 'Francois One';
     font-style: normal;
@@ -124,6 +120,15 @@ h1 {
     order: 0;
     flex-grow: 0;
     margin-bottom: 40px;
+}
+
+.title::before {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 8px;
+    background: #000000;
+    margin-bottom: 20px;
 }
 
 p {
@@ -151,12 +156,15 @@ p {
 .footer__container-icons {
     display: flex;
     gap: 30px;
-    width: 50%;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
     
 }
 
 .footer__container-icons-img {
-    width: 100%;
-    display: flex;
+    width: 22%;
+    max-width: 270px;
+    
 }
