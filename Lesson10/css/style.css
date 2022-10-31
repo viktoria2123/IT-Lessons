@@ -94,7 +94,7 @@ a {
     margin-top: 96px;
 }
 
-.main__container-img {
+.main__container-img,.footer__container-head-img {
     width: 100px;
     height: 8px;
     margin-bottom: 20px;
