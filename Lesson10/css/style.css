@@ -58,7 +58,6 @@ li {
     flex: none;
     order: 0;
     flex-grow: 0;
-    padding-bottom: 106px;
     cursor: pointer;
     text-decoration: none;
 }
@@ -92,6 +91,7 @@ li {
     margin-top: 96px;
     position: sticky;
     top: 70px;
+    min-width: 390px;
 
 }
 
@@ -255,4 +255,10 @@ p {
 
 .footer__container-icons-img {
     width: 200px;
+}
+
+.wrap {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
 }
