@@ -21,6 +21,7 @@ body {
 
 li {
     list-style-type: none;
+    margin-bottom: 80px;
 }
 
 .header__menu-img {
@@ -163,6 +164,8 @@ p {
     color: #000000;
     margin-top: 100px;
     margin-bottom: 30px;
+    display: flex;
+    gap: 20px;
 }
 
 .footer__title::before {
@@ -172,6 +175,8 @@ p {
     height: 8px;
     background: #000000;
     margin-bottom: 20px;
+    position: relative;
+    top: 20px;
 }
 
 .flip-card {
