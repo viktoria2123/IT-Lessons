@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Farro:wght@300&family=Francois+One&family=PT+Sans&family=Staatliches&family=Tourney:wght@600&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="container">
+                <nav class="header__navigation">
+                    <div class="header__button">
+                        <a class="header__btn" href="#">
+                            ENG
+                        </a>
+                    </div>
+                    <nav aria-label="Breadcrumb" class="breadcrumb">
+                        <ul>
+                            <li><a href="index.html">Documentation</a></li>
+                            <li><a href="Who's-using.html">Who's using</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header__logo">
+                        <a href="index.html" class="header__logo-link">
+                            <img src="./img/company-logo-black.png" alt="Bitmap" class="header__logo-img">
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="main">
+            <div class="main__bg-img-wrap">
+                <img src="./img/bg-picture.png" alt="Avatar" class="main__bg-img">
+            </div>
+            <div class="container">
+                <div class="main-wrapp">
+                    <article>
+                        <ul class="main-wrapp-content">
+                            <li>
+                                <h4 class="main-wrapp-title">
+                                    Introduction
+                                </h4>
+                                <h4 class="main-wrapp-title">
+                                    core components
+                                </h4>
+                                <h4 class="main-wrapp-title">
+                                    react fundamentals
+                                </h4>
+                                <h4 class="main-wrapp-title">
+                                    handling text input
+                                </h4>
+                            </li>
+                        </ul>
+                    </article>
+                    <main class="main__content">
+                        <section class="main__bg">
+                           
+                            <ul class="main__content-wrapper">
+                                <li class="main__content-wrap" id="main__content-wrap-id">
+                                    <div class="main__content-title">
+                                        <h3>
+                                            Introduction
+                                        </h3>
+                                        <span class="main__chapter">
+                                            Chapter 1
+                                        </span>
+                                    </div>
+                                    <p class="main__content-text">
+                                        Welcome to the very start of your React Native journey!
+                                        If you're looking for environment setup instructions,
+                                        they've moved to their own section. Continue reading
+                                        for an introduction to the documentation, Native Components,
+                                        React, and more!
+                                    </p>
+                                </li>
+                                <li class="main__content-wrap">
+                                    <div class="main__content-title">
+                                        <h3>
+                                            core components
+                                        </h3>
+                                        <span class="main__chapter">
+                                            Chapter 1
+                                        </span>
+                                    </div>
+                                    <p class="main__content-text">
+                                        React Native is an open source framework for building Android and
+                                        iOS applications using React and the app platform’s native capabiles.
+                                        With React Native, you use JavaScript to access your platform’s
+                                        APIs as well as to describe the appearance and behavior of your
+                                        UI using React components: bundles of reusable, nestable code.
+                                        You can learn more about React in the next section. But first,
+                                        let’s cover how components work in React Native.
+                                    </p>
+                                </li>
+                                <li class="main__content-wrap">
+                                    <div class="main__content-title">
+                                        <h3>
+                                            react fundamentals
+                                        </h3>
+                                        <span class="main__chapter">
+                                            Chapter 1
+                                        </span>
+                                    </div>
+                                    <p class="main__content-text">
+                                        React Native runs on React, a popular open source library for
+                                        building user interfaces with JavaScript. To make the most of
+                                        React Native, it helps to understand React itself. This section
+                                        can get you started or can serve as a refresher course.
+                                    </p>
+                                    <p class="main__content-text">
+                                        We’re going to cover the core concepts behind React:
+                                    </p>
+                                    <p class="main__content-text">
+                                        + components. The rest of this introduction to React
+                                        uses cats in its examples: friendly, approachable creatures
+                                        that need names and a cafe to work in.
+                                    </p>
+                                    <p class="main__content-text">
+                                        + JSX. React and React Native use JSX, a syntax that lets you
+                                        write elements inside JavaScript like so:
+                                        <Text>Hello, I am your cat!</Text>.
+                                    </p>
+                                    <p class="main__content-text">
+                                        The React docs have a comprehensive guide to JSX you can refer to
+                                        learn even more. Because JSX is JavaScript, you can use variables
+                                        inside it. Here you are declaring a name for the cat, name, and
+                                        embedding it with curly braces inside <Text>
+                                    </p>
+                                    <p class="main__content-text">
+                                        + props. Props is short for “properties”.
+                                    </p>
+                                    <p class="main__content-text">
+                                        + state. While you can think of props as arguments you use to configure
+                                        how components render, state is like a component’s personal data storage.
+                                        State is useful for handling data that changes over time or that comes
+                                        from user interaction. State gives your components memory!
+                                    </p>
+                                </li>
+                                <li class="main__content-wrap">
+                                    <div class="main__content-title">
+                                        <h3>
+                                            handling text input
+                                        </h3>
+                                        <span class="main__chapter">
+                                            Chapter 1
+                                        </span>
+                                    </div>
+                                    <p class="main__content-text">
+                                        TextInput is a Core Component that allows the user to enter text. It
+                                        has an onChangeText prop that takes a function to be called every time
+                                        the text changed, and an onSubmitEditing prop that takes a function to
+                                        be called when the text is submitted.
+                                    </p>
+                                    <p class="main__content-text">
+                                        For example, let's say that as the user types, you're translating
+                                        their words into a different language. In this new language, every
+                                        single word is written the same way:
+                                        🍕. So the sentence "Hello there Bob" would be translated as "🍕 🍕".
+                                    </p>
+                                </li>
+                            </ul>
+                        </section>
+                    </main>
+                </div>
+            </div>
+        </div>
+        <footer>
+
+        </footer>
+
+    </div>
+</body>
+
+</html>

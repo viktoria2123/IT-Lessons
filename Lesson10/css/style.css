@@ -28,7 +28,7 @@ li {
     top: 5px;
 }
 
-a {
+.sidebar__link {
     color: #000000;
     text-decoration-color: #BDBDBD;
     text-decoration-thickness: 1px;
@@ -153,18 +153,106 @@ p {
     gap: 20px;
 }
 
-.footer__container-icons {
+.footer__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.footer__title::before {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 8px;
+    background: #000000;
+    margin-bottom: 20px;
+}
+
+.flip-card {
     display: flex;
     gap: 30px;
     width: 100%;
     flex-wrap: wrap;
     justify-content: space-between;
-
+    transition: transform 0.2s;
     
 }
+
+.flip-card-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    justify-content: center;
+    border-bottom: solid 1px #636363;
+    border-top: solid 1px #636363;
+    padding: 28px 0;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 270px;
+    height: 180px;
+    perspective: 1000px;
+}
+
+
 
 .footer__container-icons-img {
     width: 22%;
     max-width: 270px;
-    
+    transition: 1.0s;
+}
+
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateX(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+
+  .flip-card-front {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E6E6E6;
+    border-radius: 8px;
+}
+
+.flip-card-back {
+    color: white;
+    transform: rotateX(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1A1A1A;
+    border-radius: 8px;
+}
+
+.footer__container-icons-img {
+    width: 200px;
 }
