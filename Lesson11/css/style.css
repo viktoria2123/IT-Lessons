@@ -19,6 +19,8 @@ img {
     text-align: center;
     letter-spacing: 0.05em;
     text-transform: uppercase;
+    margin-top: 120px;
+    margin-bottom: 80px;
 }
 
 .wrapper {
@@ -26,3 +28,144 @@ img {
     overflow: hidden;
     margin: 0 auto;
 }
+
+.container {
+    margin-bottom: 120px;
+}
+
+.container-grid {
+    position: relative;
+    cursor: pointer;
+}
+
+/* container main-grid1 */
+
+.main-grid1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.main-grid1-img-1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.main-grid1-img-2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.main-grid1-img-3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.main-grid1-img-4 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.main-grid1-img-5 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.main-grid1-img-6 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+/* container main-grid1 end */
+
+.main-grid2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+/* container main-grid2 */
+.main-grid2-img-1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.main-grid2-img-2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.main-grid2-img-3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.main-grid2-img-4 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.main-grid2-img-5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.main-grid2-img-6 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+/* container main-grid2 end */
+
+
+
+/* container main-grid3 */
+
+.main-grid3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 30px;
+    grid-template-areas: 
+    "one two three"
+    "four two five"
+    "six seven five"
+    "six eight eight"
+    "nine nine ten";
+}
+
+.main-grid3-img-1 {
+    grid-area: one;
+    
+}
+.main-grid3-img-2 {
+    grid-area: two;
+}
+.main-grid3-img-3 {
+    grid-area: three;
+
+}
+.main-grid3-img-4 {
+    grid-area: four;
+
+}
+.main-grid3-img-5 {
+    grid-area: five;
+
+}
+.main-grid3-img-6 {
+    grid-area: six;
+
+}
+.main-grid3-img-7 {
+    grid-area: seven;
+
+}
+.main-grid3-img-8 {
+    grid-area: eight;
+
+}
+.main-grid3-img-9 {
+    grid-area: nine;
+
+}
+.main-grid3-img-10 {
+    grid-area: ten;
+
+}
+
+/* container main-grid3 end */
