@@ -36,6 +36,73 @@ img {
 .container-grid {
     position: relative;
     cursor: pointer;
+     
+}
+
+.grid-img:hover {
+    background: rgba(0,0,0,.4);
+}
+
+
+ .container-grid:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 20px;
+    background: rgba(0,0,0,.4);
+    opacity: 0;
+}
+
+.container-grid:hover:after { 
+    opacity: 1;
+
+ }
+
+.text-left{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    z-index: 2;
+}
+.text-right{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #E0E0E0;
+    z-index: 2;
+}
+
+
+.icon{
+    width: 40px;
+    position: absolute;
+    top: 20px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.icon__heart{
+    left: 20px;
+    z-index: 2;
+}
+.icon__download{
+    right: 20px;
+} 
+.container-grid:hover .icon{
+    opacity: 1;
 }
 
 /* container main-grid1 */
