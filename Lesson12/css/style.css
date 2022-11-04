@@ -101,14 +101,15 @@ img {
     padding-top: 50px;
 }
 
-.blog__container:nth-child(2) {
+.blog__item:nth-child(even) {
     flex-direction: row-reverse;
-    
+
 }
 
 .blog__item {
     display: flex;
     gap: 30px;
+    margin-bottom: 50px;
 }
 
 .blog__img {
@@ -179,6 +180,11 @@ img {
         max-width: 340px;
     }
 
+    .blog__img {
+        max-width: 340px;
+        
+    }
+
     .blog__content {
         min-width: 340px;
 
@@ -189,11 +195,12 @@ img {
 
 @media (max-width: 576px) {
     .blog__item {
-        display: block;
+        flex-direction: column-reverse;
     }
 
     .blog__img {
         max-width: 300px;
+        
     }
 
     .blog__content {
@@ -203,4 +210,112 @@ img {
     .blog__item-title {
         font-size: 22px;
     }
+
 }
+
+/* Section Blog End */
+
+
+/* Section Latests__posts */
+
+.latest-post__row {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.latest-post__item {
+    max-width: 370px;
+}
+
+.latest-post__container-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.latest-posts__title {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 166%;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.latest-post__container-title-span {
+    display: flex;
+    gap: 20px;
+}
+
+.latest-post__container-title-text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 166%;
+    letter-spacing: 0.1em;
+    color: #7B7B7B;
+}
+
+.latest-posts__img {
+    max-width: 370px;
+    margin-bottom: 25px;
+}
+
+.latest-posts__heading {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 166%;
+    letter-spacing: 0.1em;
+    color: #7B7B7B;
+    margin-bottom: 25.69px;
+}
+
+.description__title {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 166%;
+    letter-spacing: 0.1em;
+    color: #000000;
+    padding-bottom: 20px;
+}
+
+.description__text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 166%;
+    letter-spacing: 0.05em;
+    color: #565656;
+}
+
+@media (max-width: 1200px) {
+    .latest-post__item {
+        max-width: 340px;
+    }
+
+    .latest-post__item:nth-child(even) {
+        flex-direction: row-reverse;
+    
+    }
+
+}
+
+
+
+
+
+
+
+
+
+/* Section Latests__posts End */
