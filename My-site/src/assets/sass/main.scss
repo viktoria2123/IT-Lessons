@@ -1,12 +1,17 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+// Variables
+@import './variables/media';
+@import './variables/color';
 
-.hero {
-    &__container {
-        font-size: 40px;
-        color: red;
-    }
-}
+// Global Style
+@import './global/resets.scss';
+@import './global/global.scss';
+// Global Style End
+
+// Common section
+@import './common/header.scss';
+// Common section End
+
+// Pages Style
+@import './pages/home.scss';
+@import './pages/contact.scss';
+// Pages Style End
