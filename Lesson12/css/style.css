@@ -177,7 +177,7 @@ img {
 @media (max-width: 1200px) {
 
     .blog__row {
-        max-width: 640px;
+        
         margin: 0 auto;
     }
 
@@ -186,10 +186,7 @@ img {
 
     }
 
-    .blog__content {
-        min-width: 340px;
-
-    }
+   
 
 }
 
