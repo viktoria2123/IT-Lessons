@@ -12,3 +12,18 @@ body {
     max-width: 134px;
     height: 11px;
 }
+
+button {
+    border: none;
+    background: transparent;
+    display: block;
+}
+
+p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+}
