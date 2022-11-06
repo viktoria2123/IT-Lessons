@@ -1,0 +1,14 @@
+// & == .about
+
+.about__container {
+    padding-top: 96px;
+
+    &__title {
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 64px;
+        letter-spacing: 0.05em;
+    }
+}
