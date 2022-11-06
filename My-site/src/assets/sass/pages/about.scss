@@ -3,6 +3,17 @@
 .about {
     padding-top: 96px;
 
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        gap: 148px;
+
+        @media (max-width: $mobile) {
+            display: block;
+
+        }
+    }
+
     &__title {
         font-family: 'Red Hat Display';
         font-style: normal;
@@ -10,11 +21,78 @@
         font-size: 48px;
         line-height: 64px;
         letter-spacing: 0.05em;
+        padding-bottom: 39px;
     }
 
-    &__about__row {
-        display: flex;
-        justify-content: space-between;
-        gap:148px;
+    &__item {
+        width: 50%;
+
+        @media (max-width: $mobile) {
+            width: 100%;
+
+        }
+    }
+
+    &__text {
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 166%;
+        letter-spacing: 0.1em;
+        color: #565656;
+    }
+
+    &__description {
+        width: 50%;
+
+        @media (max-width: $mobile) {
+            width: 100%;
+
+        }
+    }
+
+    &__description-text,
+    &__description-text-two {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 32px;
+        letter-spacing: 0.05em;
+        color: #565656;
+    }
+
+    &__description-text-two {
+        padding-top: 30px;
+    }
+
+    &__img {
+        max-width: 225px;
+        padding-top: 19px;
+
+        @media (max-width: $mobile) {
+            max-width: 100%;
+            padding: 24px 0px 48px 0px;
+
+
+        }
+    }
+
+    &__description-btn {
+        margin-top: 67px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 166%;
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+
+        @media (max-width: $mobile) {
+            margin-top: 48px;
+
+
+        }
     }
 }
