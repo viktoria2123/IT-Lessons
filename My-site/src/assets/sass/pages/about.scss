@@ -1,6 +1,6 @@
 // & == .about
 
-.about__container {
+.about {
     padding-top: 96px;
 
     &__title {
@@ -10,5 +10,11 @@
         font-size: 48px;
         line-height: 64px;
         letter-spacing: 0.05em;
+    }
+
+    &__about__row {
+        display: flex;
+        justify-content: space-between;
+        gap:148px;
     }
 }
