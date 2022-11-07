@@ -9,6 +9,12 @@ img {
     width: 100%;
 }
 
+button {
+    border: none;
+    background: transparent;
+    display: block;
+}
+
 li {
     list-style: none;
 }
@@ -91,6 +97,7 @@ a :hover{
     padding-bottom: 104px;
 }
 /* ======end denis novik====== */
+
 /* ======about-me====== */
 .about-me {
     background: #F6F6F6;
@@ -116,6 +123,7 @@ a :hover{
     line-height: 21px;
 }
 /* ======end about-me====== */
+
 /* ======skils====== */
 .skills__title {
     padding-top: 91px;
@@ -148,6 +156,7 @@ a :hover{
 }
 
 /* ======and skils====== */
+
 /* ======portfolio====== */
 .portfolio {
     background: #F6F6F6;
@@ -159,6 +168,7 @@ a :hover{
     padding: 44px 0px 99px 0px;
 }
 /* ======and portfolio====== */
+
 /* ======reebok====== */
 .reebok {
     background: #F6F6F6;
@@ -167,6 +177,7 @@ a :hover{
     padding: 45px 0px 99px 0px;
 }
 /* ======end reebok====== */
+
 /* ======braun====== */
 .braun {
     background: #F6F6F6;
@@ -175,6 +186,7 @@ a :hover{
     padding: 46px 0px 96px 0px;
 }
 /* ======end braun====== */
+
 /* ======footer====== */
 .footer__title {
     padding: 114px 0px 20px 0px;
@@ -191,8 +203,15 @@ a :hover{
     background: #070707;
     border-radius: 20px;
     padding: 10px 30px;
+    margin: 0 auto;
     cursor: pointer;
 }
+
+.fotter__button:hover {
+    color: #070707;
+    background: gray;
+}
+
 .footer__link {
     display: flex;
     justify-content: space-between;
