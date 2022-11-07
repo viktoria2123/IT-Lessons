@@ -15,22 +15,36 @@
         <!--header-->
         <header id="header__anchor" class="header">
             <nav class="header__container container">
-                <ul class="header__li">
-                    <a href="#header_anchor">
-                        <li>Головна</li>
-                    </a>
-                    <a href="#about-me__anchor">
-                        <li>Про мене</li>
-                    </a>
-                    <a href="#skills__anchor">
-                        <li>Навички</li>
-                    </a>
-                    <a href="#portfolio__anchor">
-                        <li>Портфоліо</li>
-                    </a>
-                    <a href="#footer__anchor">
-                        <li>Контакти</li>
-                    </a>
+                <label class="header__nav-label" for="gam">
+                    <div class="header__nav-icon"></div>
+                </label>
+                <input id="gam" class="header__nav-input" type="checkbox">
+                <ul class="header__nav-row">
+                    <li class="header__nav-item">
+                        <a class="header__nav-link" href="#header_anchor">
+                            Головна
+                        </a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a class="header__nav-link" href="#about-me__anchor">
+                            Про мене
+                        </a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a class="header__nav-link" href="#skills__anchor">
+                            Навички
+                        </a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a class="header__nav-link" href="#portfolio__anchor">
+                            Портфоліо
+                        </a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a class="header__nav-link" href="#footer__anchor">
+                            Контакти
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </header>
@@ -41,18 +55,21 @@
                 <div class="denis-novik__container container">
                     <div class="denis-novik__header">
                         <h1 class="denis-novik__title">Денис Новік</h1>
-                        <p class="denis-novik__text">UX | UI дизайнер <br> 24 роки, Мінськ</p>
+                        <p class="denis-novik__text">UX | UI дизайнер <br> 24 роки, Київ</p>
                         <ul class="denis-novik__language">
-                            <a href="./index-ukr.html">
-                                <li>UKR</li>
+                            <li class="denis-novik__item">
+                                <a class="denis-novik__link" href="index-ukr.html">
+                            <li>UKR</li>
                             </a>
-                            <a href="./index.html">
+                            <a class="denis-novik__link" href="index.html">
                                 <li>/ENG</li>
                             </a>
+                            </li>
                         </ul>
                     </div>
-                    <div class="dinis-novik__img">
-                        <img src="./img/denis.png" alt="foto denis novik">
+                    <div class="denis-novik__img">
+                        <img class="main-img" src="./img/denis.png" alt="foto denis novik">
+                        <img class="mobile-img" src="./img/denis-mob.jpg" alt="foto denis novik">
                     </div>
                 </div>
             </section>
@@ -63,10 +80,10 @@
                     <h2 class="about-me__title title">Про мене</h2>
                     <div class="about-me__flex-container">
                         <div class="about-me__text-block">
-                            <p>Привіт, я Денис - UX/UI дизайнер з Мінська <br> мене цікавить дизайн і все що з ним
+                            <p>Привіт, я Денис - UX/UI дизайнер з Києва <br> мене цікавить дизайн і все що з ним
                                 пов'язано</p>
                             <p>Навчаюся на курсах «Веб та мобільний дизайн<br> інтерфейси» в IT-Academi</p>
-                            <p>Готовий реалізувати чудові проекти <br> з чудовими людьми</p>
+                            <p>Готовий реалізувати грандіозні проекти <br> з чудовими людьми</p>
                         </div>
                     </div>
                 </div>
@@ -81,22 +98,46 @@
                         <div class="skills__card">
                             <img class="skills__card-img" src="./img/ps.png" alt="card">
                             <p>Adobe <br>Photoshop</p>
-                            <img src="./img/star1.png" alt="star">
+                            <div class="skills__card-img-star">
+                                <img class="img-star-b" src="./img/star-b.png" alt="star">
+                                <img class="img-star-b" src="./img/star-b.png" alt="star">
+                                <img class="img-star-b" src="./img/star-b.png" alt="star">
+                                <img class="img-star-b" src="./img/star-b.png" alt="star">
+                                <img class="img-star-g" src="./img/star-g.png" alt="star">
+                            </div>
                         </div>
                         <div class="skills__card">
                             <img class="skills__card-img" src="./img/ai.png" alt="card">
                             <p>Adobe <br> Illustrator</p>
-                            <img src="./img/star2.png" alt="star">
+                            <div class="skills__card-img-star">
+                                <img class="img-star-b" src="./img/star-b.png" alt="star">
+                                <img class="img-star-b" src="./img/star-b.png" alt="star">
+                                <img class="img-star-b" src="./img/star-b.png" alt="star">
+                                <img class="img-star-g" src="./img/star-g.png" alt="star">
+                                <img class="img-star-g" src="./img/star-g.png" alt="star">
+                            </div>
                         </div>
                         <div class="skills__card">
                             <img class="skills__card-img" src="./img/ae.png" alt="card">
                             <p>Adobe <br> After Effects</p>
-                            <img src="./img/star1.png" alt="star">
+                            <div class="skills__card-img-star">
+                                <img class="img-star-b" src="./img/star-b.png" alt="star">
+                                <img class="img-star-b" src="./img/star-b.png" alt="star">
+                                <img class="img-star-b" src="./img/star-b.png" alt="star">
+                                <img class="img-star-b" src="./img/star-b.png" alt="star">
+                                <img class="img-star-g" src="./img/star-g.png" alt="star">
+                            </div>
                         </div>
                         <div class="skills__card">
                             <img class="skills__card-img-f" src="./img/figma.png" alt="card">
                             <p>Adobe <br>Figma</p>
-                            <img src="./img/star1.png" alt="star">
+                            <div class="skills__card-img-star">
+                                <img class="img-star-b" src="./img/star-b.png" alt="star">
+                                <img class="img-star-b" src="./img/star-b.png" alt="star">
+                                <img class="img-star-b" src="./img/star-b.png" alt="star">
+                                <img class="img-star-b" src="./img/star-b.png" alt="star">
+                                <img class="img-star-g" src="./img/star-g.png" alt="star">
+                            </div>
                         </div>
                     </div>
                 </div>

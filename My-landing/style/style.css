@@ -129,15 +129,39 @@ a {
     line-height: 18px;
 }
 
+.denis-novik__link:hover {
+    color: #070707;
+}
+
+.denis-novik__link:active {
+    color: #070707;
+}
+
+
 .denis-novik__img {
     padding-bottom: 104px;
 }
 
+.mobile-img {
+    display: none;
+}
+
+/* Mobile size */
 @media (max-width: 576px) {
     .denis-novik__header {
         flex-direction: column;
     }
+
+    .mobile-img {
+        display: block;
+    }
+
+    .main-img {
+    display: none;
 }
+}
+
+
 
 /* ======end denis novik====== */
 
@@ -168,6 +192,13 @@ a {
 .about-me__text-block>p {
     font-size: 18px;
     line-height: 21px;
+}
+
+/* Mobile size */
+@media (max-width: 576px) {
+    .about-me__text-block {
+        max-width: 316px;
+    }
 }
 
 /* ======end about-me====== */
@@ -206,11 +237,38 @@ a {
     margin: 0 auto;
 }
 
+.skills__card-img-star {
+    display: flex;
+    gap: 9px;
+
+}
+
+/* Mobile size */
 @media (max-width: 576px) {
+    .skills__title {
+        padding-top: 83px;
+    }
+
+    .skills__container>p {
+        padding: 50px 0px 70px 0px;
+
+    }
+
+    .skills__card {
+        margin: 0 auto;
+    }
+
     .skills__cards {
         flex-direction: column;
         gap: 81px;
     }
+
+    .img-star-b,
+    .img-star-g {
+        width: 26px;
+        height: 26px;
+    }
+
 
 }
 
