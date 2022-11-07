@@ -102,7 +102,6 @@ a {
 }
 
 
-
 /* ======end header style====== */
 
 /* ======denis novik====== */
@@ -157,8 +156,8 @@ a {
     }
 
     .main-img {
-    display: none;
-}
+        display: none;
+    }
 }
 
 
