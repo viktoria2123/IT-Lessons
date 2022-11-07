@@ -20,57 +20,89 @@ li {
 }
 
 
-body,html{
+body,
+html {
     font-family: 'Arial';
     font-style: italic;
     font-weight: 400;
     color: #070707;
 }
-.wrapper{
+
+.wrapper {
     display: flex;
     flex-direction: column;
     height: 100%;
     overflow: hidden;
 }
-a{
-    color: #828282; 
+
+a {
+    color: #828282;
 }
-a :hover{
-    color: #070707; 
+
+.header__nav-link:hover {
+    color: #070707;
 }
-.content{
+
+.content {
     flex: 1 1 auto;
 }
-.title{
+
+.title {
     font-size: 34px;
     line-height: 39px;
 }
-.link{
+
+.link {
     font-size: 18px;
     line-height: 21px;
     text-decoration-line: underline;
 }
-.link>a{
+
+.link>a {
     color: #070707;
 }
 
 /* ======header style====== */
-.header__container{
+.header__container {
     border-bottom: 1px solid #828282;
 }
+
 .container {
     max-width: 943px;
     margin: 0px auto;
     padding: 0px 16px;
     text-align: center;
 }
-.header__li{
+
+.header__nav-input {
+    display: none;
+}
+
+.header__nav-row {
     display: flex;
     justify-content: space-between;
     font-size: 18px;
     line-height: 21px;
     padding: 33px 0px;
 }
+
+/* Mobile size */
+@media (max-width: 576px) {
+    .header__nav-row {
+        display: none;
+
+    }
+
+    .header__nav-input {
+        display: block;
+        width: 32px;
+        height: 32px;
+        background: red;
+    }
+}
+
+
+
 /* ======end header style====== */
 
 /* ======denis novik====== */
@@ -80,22 +112,33 @@ a :hover{
     align-items: center;
     padding: 43px 0px 90px 0px;
 }
+
 .denis-novik__title {
     font-size: 47.3392px;
     line-height: 54px;
 }
+
 .denis-novik__text {
     font-size: 18px;
     line-height: 21px;
 }
+
 .denis-novik__language {
     width: 50px;
     font-size: 16px;
     line-height: 18px;
 }
-.dinis-novik__img {
+
+.denis-novik__img {
     padding-bottom: 104px;
 }
+
+@media (max-width: 576px) {
+    .denis-novik__header {
+        flex-direction: column;
+    }
+}
+
 /* ======end denis novik====== */
 
 /* ======about-me====== */
@@ -103,13 +146,16 @@ a :hover{
     background: #F6F6F6;
     padding-bottom: 107px;
 }
+
 .about-me__title {
     padding: 120px 0px 18px 0px;
 }
-.about-me__flex-container{
+
+.about-me__flex-container {
     display: flex;
     flex-direction: column;
 }
+
 .about-me__text-block {
     flex-direction: column;
     display: flex;
@@ -118,27 +164,32 @@ a :hover{
     height: 218px;
     margin: 0 auto;
 }
-.about-me__text-block>p{
+
+.about-me__text-block>p {
     font-size: 18px;
     line-height: 21px;
 }
+
 /* ======end about-me====== */
 
 /* ======skils====== */
 .skills__title {
     padding-top: 91px;
 }
-.skills__container>p{
+
+.skills__container>p {
     padding: 69px 0px 84px 0px;
     font-size: 18px;
     line-height: 21px;
 }
+
 .skills__cards {
     display: flex;
     justify-content: space-between;
     padding-bottom: 110px;
 }
-.skills__card>p{
+
+.skills__card>p {
     font-size: 14px;
     line-height: 16px;
     color: #828282;
@@ -155,48 +206,65 @@ a :hover{
     margin: 0 auto;
 }
 
+@media (max-width: 576px) {
+    .skills__cards {
+        flex-direction: column;
+        gap: 81px;
+    }
+
+}
+
 /* ======and skils====== */
 
 /* ======portfolio====== */
 .portfolio {
     background: #F6F6F6;
 }
+
 .portfolio__title {
     padding: 113px 0px 47px 0px;
 }
-.portfolio__link{
+
+.portfolio__link {
     padding: 44px 0px 99px 0px;
 }
+
 /* ======and portfolio====== */
 
 /* ======reebok====== */
 .reebok {
     background: #F6F6F6;
 }
+
 .reebok__link {
     padding: 45px 0px 99px 0px;
 }
+
 /* ======end reebok====== */
 
 /* ======braun====== */
 .braun {
     background: #F6F6F6;
 }
+
 .braun__link {
     padding: 46px 0px 96px 0px;
 }
+
 /* ======end braun====== */
 
 /* ======footer====== */
 .footer__title {
     padding: 114px 0px 20px 0px;
 }
-.footer__text{
+
+.footer__text {
     padding: 20px 0px 29px 0px;
     font-size: 18px;
     line-height: 21px;
 }
-.fotter__button{
+
+.fotter__button {
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
@@ -219,10 +287,12 @@ a :hover{
     padding: 80px 0px 46px 0px;
     margin: 0 auto;
 }
-.footer__text-footer{
+
+.footer__text-footer {
     font-size: 14px;
     line-height: 16px;
     color: #828282;
     padding-bottom: 123px;
 }
+
 /* ======end footer====== */
