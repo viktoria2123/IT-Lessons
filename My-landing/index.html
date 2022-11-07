@@ -5,225 +5,156 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My landing</title>
-
-    <!-- Style -->
+    <title>Denis Novik</title>
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./style/style.css">
 </head>
 
 <body>
     <div class="wrapper">
         <!--header-->
-        <section class="header">
-            <header class="header">
-                <div class="container__header">
-                    <nav>
-                        <ul class="header__menu">
-                            <li>
-                                <a class="header__home" href="#home__anchor">
-                                    Home
-                                </a>
-                            </li>
-                            <li>
-                                <a class="header__about-me" href="#about-me__anchor">
-                                    About me
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#skills__anchor">
-                                    Skills
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#portfolio__anchor">
-                                    Portfolio
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#footer__anchor">
-                                    Contacts
-                                </a>
-                            </li>
+        <header id="header__anchor" class="header">
+            <nav class="header__container container">
+                <ul class="header__li">
+                    <a href="#header_anchor">
+                        <li>Home</li>
+                    </a>
+                    <a href="#about-me__anchor">
+                        <li>About me</li>
+                    </a>
+                    <a href="#skills__anchor">
+                        <li>Skills</li>
+                    </a>
+                    <a href="#portfolio__anchor">
+                        <li>Portfolio</li>
+                    </a>
+                    <a href="#footer__anchor">
+                        <li>Contacts</li>
+                    </a>
+                </ul>
+            </nav>
+        </header>
+        <!--end header-->
+        <!--dinis-novik-->
+        <main class="content">
+            <section class="dinis-novik">
+                <div class="denis-novik__container container">
+                    <div class="denis-novik__header">
+                        <h1 class="denis-novik__title">Denis Novik</h1>
+                        <p class="denis-novik__text">UX | UI designer <br> 24 years old, Minsk</p>
+                        <ul class="denis-novik__language">
+                            <a href="index-ukr.html">
+                                <li>UKR</li>
+                            </a>
+                            <a href="index.html">
+                                <li>/ENG</li>
+                            </a>
                         </ul>
-                    </nav>
-                    <img class="container__header-vector" src="./img/Vector.png" alt="Vector">
-                </div>
-        </section>
-        <!--header end-->
-
-
-        <!--header-content-->
-        <section id="home__anchor" class="header-content">
-            <div class="header-content__text">
-                <h1>
-                    Denis
-                    Novik
-                </h1>
-                <p>
-                    UX | UI designer <br>
-                    24 years old, Minsk
-                </p>
-
-                <p>
-                    RU | <br> ENG
-                </p>
-            </div>
-            <div class="header-content-img">
-                <img class="header-content-photo" src="./img/denis.png" alt="Denis Novik photo">
-            </div>
-
-        </section>
-        <!--header-content end-->
-
-
-        <!--about me-->
-        <section id="about-me__anchor" class="about-me">
-            <div class="container about-me__container">
-                <h2 class="about-me__title">
-                    About me
-                </h2>
-            </div>
-
-            <div class="about-me__text">
-                <p>
-                    Hi, I'm Denis – UX/UI designer from Minsk. <br> I'm interested in design and everything connected
-                    with
-                    it.
-                </p>
-                <p>
-                    I'm studying at courses "Web and mobile design <br> interfaces" in IT-Academy
-                </p>
-
-                <p>
-                    Ready to implement excellent projects <br> with wonderful people.
-                </p>
-
-            </div>
-        </section>
-        <!--about me end-->
-
-
-        <!--skills-->
-        <section id="skills__anchor" class="skills">
-            <div class="container skills__container">
-                <div class="title-text">
-                    <h2 class="skkills__title">
-                        Skills
-                    </h2>
-                    <p class="skills__text">
-                        I work in such programs as
-                    </p>
-                </div>
-
-                <div class="container skills__cards">
-                    <div class="skills__card">
-                        <img class="skills__img" src="./img/ps.png" alt="Adobe Photoshop">
-                        <p>
-                            Adobe <br>
-                            Photoshop
-                        </p>
-                        <img class="skills__img-stars" src="./img/star1.png" alt="stars">
                     </div>
-
-                    <div class="skills__card">
-                        <img class="skills__img" src="./img/ai.png" alt="Adobe Illustrator">
-                        <p>
-                            Adobe <br>
-                            Illustrator
-                        </p>
-                        <img class="skills__img-stars" src="./img/star2.png" alt="stars">
-                    </div>
-
-                    <div class="skills__card">
-                        <img class="skills__img" src="./img/ae.png" alt="Adobe After Effects">
-                        <p>
-                            Adobe <br>
-                            After Effects
-                        </p>
-                        <img class="skills__img-stars" src="./img/star1.png" alt="stars">
-                    </div>
-
-                    <div class="skills__card">
-                        <img class="skills__img-figma" src="./img/figma.png" alt="Figma">
-                        <p>
-                            Figma
-                        </p>
-                        <img class="skills__img-stars-figma" src="./img/star1.png" alt="stars">
+                    <div class="dinis-novik__img">
+                        <img src="./img/denis.png" alt="foto denis novik">
                     </div>
                 </div>
-            </div>
-
-        </section>
-        <!--skills end-->
-
-        <!--portfolio-->
-        <section id="portfolio__anchor" class="portfolio">
-            <div class="container portfolio__container">
-                <h2 class="title portfolio__title">
-                    Portfolio
-                </h2>
-                <div class="portfolio__img">
-                    <img src="./img/Слой 8.jpg" alt="">
-
-                    <p class="portfolio__text">
-                        Online fashion store - Homepage
-                    </p>
-
-                    <div class="portfolio__img">
-                        <img src="./img/reebok_web.jpg" alt="">
-
+            </section>
+            <!--end dinis-novik-->
+            <!--about-me-->
+            <section id="about-me__anchor" class="about-me">
+                <div class="about-me__container container">
+                    <h2 class="about-me__title title">About me</h2>
+                    <div class="about-me__flex-container">
+                        <div class="about-me__text-block">
+                            <p>Hi, i'm Denis - UX/UI designer from Minsk <br> i'm interested in design and everything
+                                connected with it</p>
+                            <p>i'm studying at courses "Web and mobile design <br> interfaces" in IT-Academi</p>
+                            <p>Ready to implement excellent projects <br> with wonderful people</p>
+                        </div>
                     </div>
-
-                    <p class="portfolio__text">
-                        Reebok Store - Concept
-                    </p>
-
-                    <div class="portfolio__img">
-                        <img src="./img/reebok_web2.png" alt="">
-
-
+                </div>
+            </section>
+            <!--and about-me-->
+            <!--skills-->
+            <section id="skills__anchor" class="skills">
+                <div class="skills__container container">
+                    <h2 class="skills__title title">Skills</h2>
+                    <p>I work in such programs as</p>
+                    <div class="skills__cards">
+                        <div class="skills__card">
+                            <img class="skills__card-img" src="./img/ps.png" alt="card">
+                            <p>Adobe <br>Photoshop</p>
+                            <img src="./img/star1.png" alt="star">
+                        </div>
+                        <div class="skills__card">
+                            <img class="skills__card-img" src="./img/ai.png" alt="card">
+                            <p>Adobe <br> Illustrator</p>
+                            <img src="./img/star2.png" alt="star">
+                        </div>
+                        <div class="skills__card">
+                            <img class="skills__card-img" src="./img/ae.png" alt="card">
+                            <p>Adobe <br> After Effects</p>
+                            <img src="./img/star1.png" alt="star">
+                        </div>
+                        <div class="skills__card">
+                            <img class="skills__card-img-f" src="./img/figma.png" alt="card">
+                            <p>Adobe <br>Figma</p>
+                            <img src="./img/star1.png" alt="star">
+                        </div>
                     </div>
-                    <p class="portfolio__text">
-                        Braun Landing Page - Concept
-                    </p>
                 </div>
-        </section>
-        <!--portfolio end-->
-
-        <section id="footer__anchor" class="contacts">
-
-            <div class="container contacts__container">
-
-                <h2 class="title contacts__title">
-                    Contacts
-                </h2>
-                <p class="contacts__text">
-                    Want to know more or just chat?
-                    You are welcome!
-                </p>
-
-                <button class="contacts__btn">
-                    Send message
-
-                </button>
-
-                <div class="contacts__img">
-                    <a href="https://www.linkedin.com/feed/" target="_blank"> <img src="./img/in.png"
-                            alt="linkedIn"></a>
-                    <a href="https://www.instagram.com/" target="_blank"> <img src="./img/inst.png" alt="instagram"></a>
-                    <a href="https://bere.al/en" target="_blank"> <img src="./img/be.png" alt="be"></a>
-                    <a href="https://dribbble.com/" target="_blank"> <img src="./img/boll.png" alt="dribbble"></a>
+            </section>
+            <!--and skills-->
+            <!--portfolio-->
+            <section id="portfolio__anchor" class="portfolio">
+                <div class="portfolio__container container">
+                    <h2 class="portfolio__title title">Portfolio</h2>
+                    <img src="./img/portfolio-img.jpg" alt="magazine cover">
+                    <div class="portfolio__link link">
+                        <a href="https://kasta.ua/uk/" target="_blank">Online fashion store - Homepage</a>
+                    </div>
                 </div>
-
-                <div class="contacts__textid">
-                    Like me on <br> LinkedIn, Instagram, Behance, <br> Dribble
-
+            </section>
+            <!--and portfolio-->
+            <!--reebok-->
+            <section class="reebok">
+                <div class="reebok__container container">
+                    <img src="./img/reebok-img.jpg" alt="magazine cover reebok">
+                    <div class="reebok__link link">
+                        <a href="https://reebok-shop.com.ua/ua/" target="_blank">Reebok Store - Concept</a>
+                    </div>
                 </div>
+            </section>
+            <!--braun-->
+            <section class="braun">
+                <div class="braun__container container">
+                    <img src="./img/braum-jpg.png" alt="magazine cover braun">
+                    <div class="braun__link link">
+                        <a href="https://braun-market.com.ua/" target="_blank">Braun Landing Page - Concept</a>
+                    </div>
+                </div>
+            </section>
+            <!--end braun-->
+        </main>
+        <!--footer-->
+        <footer id="footer__anchor" class="footer">
+            <div class="footer__container container">
+                <h2 class="footer__title title">Contacts</h2>
+                <p class="footer__text">Want to know more or just chat? <br> You are welcome!</p>
+                <div>
+                    <button class="fotter__button">Send message</button>
+                </div>
+                <div class="footer__link">
+                    <a href="https://www.linkedin.com/feed/" target="_blank"><img src="./img/in.png" alt="linkedIn"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="./img/inst.png"
+                            alt="instagram"></a>
+                    <a href="https://bere.al/en"
+                        target="_blank"><img src="./img/be.png" alt="be__real"></a>
+                    <a href="https://dribbble.com/"
+                        target="_blank"><img src="./img/boll.png" alt="dribble"></a>
+                </div>
+                <p class="footer__text-footer">Like me on <br> LinkedIn, Instagram, Behance, Dribble</p>
             </div>
-
-        </section>
-
-
+        </footer>
+        <!--end footer-->
+    </div>
 </body>
 
 </html>
