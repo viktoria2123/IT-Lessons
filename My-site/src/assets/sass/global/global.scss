@@ -13,6 +13,12 @@ body {
     height: 11px;
 }
 
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 .button {
     border: none;
     display: block;
@@ -22,4 +28,14 @@ body {
     top: 674px;
     background: #565656;
     cursor: pointer;
+}
+
+.hover-link-animation {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    display: block;
+    &:hover {
+       transform: scale(1.1); 
+
+    }
 }

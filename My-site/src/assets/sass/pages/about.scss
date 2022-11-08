@@ -1,14 +1,14 @@
 // & == .about
 
 .about {
-    padding-top: 96px;
+    padding: 135px 0 128px;
 
     &__row {
         display: flex;
         justify-content: space-between;
         gap: 148px;
 
-        @media (max-width: $mobile) {
+        @media (max-width: $tablet) {
             display: block;
 
         }
@@ -27,7 +27,7 @@
     &__item {
         width: 50%;
 
-        @media (max-width: $mobile) {
+        @media (max-width: $tablet) {
             width: 100%;
 
         }
@@ -46,7 +46,7 @@
     &__description {
         width: 50%;
 
-        @media (max-width: $mobile) {
+        @media (max-width: $tablet) {
             width: 100%;
 
         }
@@ -54,7 +54,7 @@
 
     &__description-text,
     &__description-text-two {
-        font-family: $sub-font;
+        font-family: $sub-fonts;
         font-style: normal;
         font-weight: 400;
         font-size: 19px;
@@ -71,7 +71,7 @@
         max-width: 225px;
         padding-top: 19px;
 
-        @media (max-width: $mobile) {
+        @media (max-width: $tablet) {
             max-width: 100%;
             padding: 24px 0px 48px 0px;
 
@@ -81,7 +81,7 @@
 
     &__description-btn {
         margin-top: 67px;
-        font-family: $sub-font;
+        font-family: $sub-fonts;
         font-style: normal;
         font-weight: 700;
         font-size: 16px;
@@ -89,7 +89,7 @@
         letter-spacing: 0.1em;
         color: #FFFFFF;
 
-        @media (max-width: $mobile) {
+        @media (max-width: $tablet) {
             margin-top: 48px;
 
 

@@ -17,3 +17,21 @@ $sub-fonts: 'Lato', sans-serif;
     }
 
 }
+
+.h6 {
+    font-family: $sub-fonts;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    color: $color-black;
+}
+
+.h9 {
+    font-family: $sub-fonts;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    color: $color-black;
+}
