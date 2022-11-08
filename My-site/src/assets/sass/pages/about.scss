@@ -15,7 +15,7 @@
     }
 
     &__title {
-        font-family: 'Red Hat Display';
+        font-family: $main-fonts;
         font-style: normal;
         font-weight: 400;
         font-size: 48px;
@@ -34,7 +34,7 @@
     }
 
     &__text {
-        font-family: 'Red Hat Display';
+        font-family: $main-fonts;
         font-style: normal;
         font-weight: 400;
         font-size: 23px;
@@ -54,7 +54,7 @@
 
     &__description-text,
     &__description-text-two {
-        font-family: 'Lato';
+        font-family: $sub-font;
         font-style: normal;
         font-weight: 400;
         font-size: 19px;
@@ -81,7 +81,7 @@
 
     &__description-btn {
         margin-top: 67px;
-        font-family: 'Lato';
+        font-family: $sub-font;
         font-style: normal;
         font-weight: 700;
         font-size: 16px;
