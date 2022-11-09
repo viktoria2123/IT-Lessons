@@ -20,16 +20,25 @@
     }
 
     &__nav-label {
-        display: none;
+
 
         @media (max-width: $tablet) {
             display: block;
             width: 32px;
             height: 32px;
-            
+
             position: relative;
             z-index: 100;
         }
+    }
+
+    &__gam-img {
+        display: none;
+
+        @media (max-width: $tablet) {
+            display: block;
+        }
+
     }
 
     &__nav-link {
