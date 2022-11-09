@@ -1,15 +1,22 @@
 // & == .works
 .works {
+    padding-bottom: 128px;
+
     &__description {
         padding-top: 135px;
         display: flex;
         justify-content: space-between;
 
         @media (max-width: $tablet) {
+            padding-top: 78px;
             flex-direction: column;
-            gap: 48px;
             line-height: 48px;
+        }
+    }
 
+    &__title {
+        @media (max-width: $tablet) {
+            padding-bottom: 48px;
         }
     }
 
@@ -18,7 +25,16 @@
     }
 
     &__box-content-title {
-        border-bottom: 1px solid $color-gray-border;
+        padding-top: 14px;
+    }
+
+    &__box-content-title:after {
+        content: '';
+        display: block;
+        height: 1px;
+        background: $color-gray-border;
+        width: 85px;
+        min-width: 45px;
     }
 
     &__content {
@@ -28,22 +44,28 @@
 
     &__box {
         padding-top: 128px;
-        padding-top: 128px;
         display: flex;
         flex-direction: column;
         gap: 48px;
+        @media (max-width: $tablet) {
+            padding-top: 0px;
+        }
 
     }
 
     &__box-items {
         display: flex;
         justify-content: space-between;
+
+        @media (max-width: $tablet) {
+            flex-direction: column-reverse;
+            padding-top: 48px;
+        }
+
     }
 
 
-    &__box-content-title {
-        padding-bottom: 16px;
-    }
+
 
     &__box-content-text {
         padding-top: 24px;
