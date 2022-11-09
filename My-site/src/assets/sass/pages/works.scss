@@ -1,0 +1,61 @@
+// & == .works
+.works {
+    &__description {
+        padding-top: 135px;
+        display: flex;
+        justify-content: space-between;
+
+        @media (max-width: $tablet) {
+            flex-direction: column;
+            gap: 48px;
+            line-height: 48px;
+
+        }
+    }
+
+    &__description-text {
+        max-width: 541px;
+    }
+
+    &__box-content-title {
+        border-bottom: 1px solid $color-gray-border;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__box {
+        padding-top: 128px;
+        padding-top: 128px;
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+
+    }
+
+    &__box-items {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    &__box-content-title {
+        padding-bottom: 16px;
+    }
+
+    &__box-content-text {
+        padding-top: 24px;
+    }
+
+    &__box-content-year {
+        padding-bottom: 39px;
+        color: $color-dark-gray;
+    }
+
+    &__box-img {
+        max-width: 544px;
+    }
+
+}
