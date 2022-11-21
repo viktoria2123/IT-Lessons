@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            color: #fff;
+
+        }
+
+        .wrapper {
+            overflow: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+            padding: 0 20px;
+        }
+
+        .header {
+            background-color: black;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+        }
+
+        .header__text {
+            max-width: 380px;
+            margin: 16px 0 24px;
+
+        }
+
+        .header__planet {
+            width: 1000px;
+            position: absolute;
+            bottom: -90px;
+            right: -110px;
+            animation: planet 6s infinite;
+
+        }
+
+        .header__cursor {
+            width: 200px;
+            position: absolute;
+            bottom: 200px;
+            right: 340px;
+            animation: cursor 6s infinite;
+        }
+
+        @keyframes planet {
+            0% {
+                transform: translate(0, 0);
+            }
+
+            50% {
+                transform: translate(23px, -30px);
+            }
+
+            100% {
+                transform: translate(0, 0);
+            }
+
+
+        }
+
+        @keyframes cursor {
+            0% {
+                width: 100px;
+            }
+
+            50% {
+                width: 200px;
+            }
+
+            100% {
+                width: 100px;
+            }
+        }
+
+        .header__spiral-01 {
+            width: 236px;
+            width: 236px;
+            position: absolute;
+            top: 99px;
+            left: 405px;
+            animation: spiral-01 6s infinite;
+        }
+
+        @keyframes spiral-01 {
+            0% {
+                transform: rotate(10px);
+            }
+
+            50% {
+               
+            }
+
+            100% {
+                width: 100px;
+            }
+        }
+
+        .header__btn {
+            background-color: blue;
+        }
+
+        .header__btn:hover {
+            animation: header__btn 1s infinite;
+        }
+
+
+        @keyframes header__btn {
+            0% {
+                background-color: blue;
+            }
+            
+            100% {
+                background-color: red;
+            }
+
+        }
+
+    </style>
+
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <h1 class="header__title">
+                    Lorem, ipsum.
+                </h1>
+                <p class="header__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad autem, repellat pariatur est magni
+                    assumenda quis. Hic corporis officiis maxime.
+                </p>
+
+
+                <button class="header__btn">
+                    start
+                </button>
+
+                <img class="header__planet" src="./img/planet.png" alt="">
+                <img class="header__cursor" src="./img/cursor.png" alt="">
+                <img class="header__spiral-01" src="./img/spiral-01.png" alt="">
+
+
+
+            </div>
+
+        </header>
+
+
+    </div>
+</head>
+
+<body>
+
+</body>
+
+</html>

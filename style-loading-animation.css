@@ -1,0 +1,48 @@
+
+.container {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+
+.ball {
+    display: inline-block;
+    margin-left: 17px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background: #e7e7e7;
+    border-radius: 50%;
+    animation: bounce 1.7s infinite cubic-bezier(0.55, 0.06, 0.68, 0.19);
+}
+
+.ball:nth-child(1) {
+    background: hwb(281 9% 31%);
+    animation-delay: .2s;
+}
+
+.ball:nth-child(2) {
+    background: yellow;
+    animation-delay: .4s;
+}
+
+.ball:nth-child(3) {
+    background: #4d5fc4;
+    animation-delay: .6s;
+}
+
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    15% {
+        transform: translateY(-22px);
+    }
+
+    30% {
+        transform: translateY(0);
+    }
+}
